@@ -8,3 +8,6 @@ New-AzureADGroup -Description "Marketing"
 
 Add-AzureADGroupMember -ObjectId "" ` -RefObjectId ""
 #Add someone
+
+az ad group member
+#Powershell Create group
