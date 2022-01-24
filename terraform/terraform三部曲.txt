@@ -1,0 +1,3 @@
+terraform init #初始化
+terraform plan -out vpc.tfplan #依照你寫的tf檔案確認一次那些資源將會被創建出來
+terraform apply "vpc.tfplan" #正式在的雲端供應商上啟動
